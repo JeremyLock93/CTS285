@@ -5,6 +5,14 @@ Created on Sun Oct 10 17:20:43 2021
 @author: Super
 """
 
+""" The purpose of the program is to act as a calculator/answer checker from a program from the 70's called data man.
+    This is only the first version of many features in which will be introduced in the next coming sprint. For the time
+    being the calculator function is accessed through a menu system to allow the user to input numbers and the desired
+    opperator. The menu is broken up into addition, subtraction, mulplication, and division for the sake of testing
+    a menu function for later use that will require one. """
+
+
+
 def main():
     keep_going = 'y'
     while (keep_going.lower()=='y'):
